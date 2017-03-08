@@ -1,0 +1,24 @@
+{
+	"layout": {
+		"summary": {
+			"width": 480,
+			"height": 520
+		},
+		"email-thread": {
+			"width": 230,
+			"height": 230
+		},
+		"email-compose": {
+			"width": 230,
+			"height": 230
+		}
+	},
+	"secrets": {
+		"local": {}
+	},
+	"slack": {
+		"clientID": "143602233220.14603",
+		"clientSecret": "5b83b2671e2f0da7cefe643035a32df3"
+	},
+	"watchMode": false
+}

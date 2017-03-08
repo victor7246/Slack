@@ -1,0 +1,70 @@
+{
+  "name": "bot-sift",
+  "display-name": "Amazon Sift",
+  "description": "Amazon purchase through slack sift",
+  "author": "",
+  "version": "1.0.0",
+  "icon": "assets/blueprint.svg",
+  "interfaces": {
+    "summary": {
+      "controller": "dist/js/controller.umd-es2015.min.js"
+    }
+  },
+  "dag": {
+    "inputs": {
+      "slack-bot": {
+        "_config": {
+          "clientID": "143602233220.146033815346",
+          "ambientMentionDuration": 300,
+          "permission": "personal"
+        },
+        "all": {
+          "filter": {
+            "conditions": [
+              {
+                "type": "message:direct_mention,direct_message"
+              },
+              {
+                "text": {
+                  "regexp": {
+                    "pattern": ".*",
+                    "flags": "i"
+                  }
+                }
+              }
+            ],
+            "operator": "AND"
+          }
+        }
+      }
+    },
+    "nodes": [
+      {
+        "#": "Slack bot",
+        "implementation": {
+          "python": "server/script/main.py",
+          "sandbox": "quay.io/redsift/sandbox-python:v2.7.10" 
+        },
+        "input": {
+          "bucket": "all",
+          "lookup": [{
+            "bucket": "server",
+            "key": "slack/bot_access_token"
+          }]
+	},
+        "outputs": {
+          "messages": {}
+        }
+      }
+    ],
+    "stores": {
+     "messages": {
+        "key$schema": "string"
+      },
+      "server": {
+        "import": "_server"
+      }
+    },
+    "outputs": {}
+  }
+}

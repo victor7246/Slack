@@ -1,0 +1,11 @@
+{
+  "name": "bot-sift",
+  "display-name": "Amazon Sift",
+  "description": "Amazon purchase through slack sift",
+  "author": "",
+  "version": "1.0.0",
+  "#": "Please use 'redsift npm' instead of system 'npm' ",
+  "dependencies": {
+    "request-promise": "^3.0.0"
+  }
+}

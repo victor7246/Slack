@@ -1,0 +1,61 @@
+[2017-03-08T15:44:22.780Z]-info: Serving Sift content from:  frontend/public 
+
+[32mRunning Flexo-local(B[m
+
+[2017-03-08T21:14:54+05:30] [Could not read favicon, not serving it open favicon.ico: no such file or directory]
+
+[2017-03-08T21:14:55+05:30] slack bot ready with key: FXe7ZXkEkGfoUORUiz9IzoN58Xwg6M8c7OfU_P3SiXbvDcIp. [#flexolocal]
+
+[2017-03-08T21:14:56+05:30] [Received message:  {"type":"hello"}]
+
+[2017-03-08T21:14:56+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-i8gg.slack-msgs.com/websocket/rspi6qqoJxMLXGjSNCr80hw03Q5y64ExXSC4uJhMPxDFUmgOFQ_YIREMZe1YU1TwuLrxpqh3TvKZe1URfC_s94NEUgxS92GvEQmH1flA1kyzPkK6df6q3Qxqsz97_bXeaqbbFl1C8EhqmrVYPqtNL0sN0f0wUp2agoaF1gQ9Sks="}]
+
+[2017-03-08T21:14:57+05:30] [Received message:  {"type":"presence_change","presence":"active","user":"U486ARMPZ"}]
+
+[2017-03-08T21:15:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-ahwj.slack-msgs.com/websocket/S3T7gtpWoHBcPdEAanEfbNUDB0VcHdR1nOCUXFAQgIHGfwfNoRIwkH56nm0l0juig1Tz8aQThpnDOlhjn9G6BXPqcBSCAiif00cyqzpkNp_ufAz-UDp_5qtiL61BVnniaCaxU57aZejqeQvI11g-BlZBNqiyjcxPisdASCcNego="}]
+
+[2017-03-08T21:17:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-tynh.slack-msgs.com/websocket/i5gS7c1mxM1-_CIEkbhr4_4TkzWiJP1pRIwDmqTuYxvD_7DqzTY6_I7Cy9_WShp6xXAeUydXi5jSu0E-lbH5b-QNshX1HthPKrbgFS_xksjf3GlFPt2yUD5TGVuitTkeoaY6lLYxbKGm6waIJjjZaj5HbPMwGzafVEkw9GJIa7I="}]
+
+
+[32mRunning DAG (B[m
+
+[2017-03-08T21:19:07+05:30] Started grip v.before-shared-sandbox-85-ged73bb6-ed73bb6
+
+[2017-03-08T21:19:07+05:30] Using stdout stats
+[2017-03-08T21:19:07+05:30] Connected to ipc:///tmp/2L3lYP/sdk_sync.sock
+[2017-03-08T21:19:07+05:30] Using data-space: simulator:gbgoD9MNtXQkdfgb51dfvHQT7uysd0Z19u_fm_Bnr_I
+
+[2017-03-08T21:19:07+05:30] DAG created from /home/victor/Desktop/bot-sift/.9910192462995ccbf380ba8b1fc9bf48cd79b82a-grip.json
+
+ Error creating native sandbox: You are trying to run a Python implementation. Please install Docker. If you already have Docker then ensure the -nd or --no-docker flag in not enabled when running the SDK 
+[2017-03-08T15:49:07.916Z]-error: [grip-bridge]: stopping grip:  1 
+
+[2017-03-08T21:20:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-5pfg.slack-msgs.com/websocket/Fiu6ObBvvtLVYCra-AsIlrVhPlCFu1AdAhRtHnJFd5s6dpN3R0eogw_tYGZlSaUmh08jS4vbihN5KbH_PUR_hiuOuuRpbCN3edQLvSNcfxrP3ijqGvJhwSalnaOQUNpFl6YEtZdLG__q4KI-H1UHhGqIihTR22bQQ8lGDLWUVO8="}]
+
+[2017-03-08T21:23:49+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-uhnc.slack-msgs.com/websocket/AxBPF3cd7Ot8ayYCHkIjZu39Kh5IfuRmOYApiJNUTkYxi2OYr9HdfTD0ybrK-8PaDFMxRUy1CSh-MuYQq4I0L36OlkRDvu12BJWq83WoHxcC2ecdojWWOBqDB2xgKRJA9qewC9Z1Z2E32EaVgZwh7xA9Rb25nG0hgkUPHZtbfkc="}]
+
+[2017-03-08T21:26:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-pp5c.slack-msgs.com/websocket/VG9m2dwpSctRtw25q1_DWlkwQjfPWWPKyYErJkcSu2XVFARMF4LIVKgkPhb0a1q3sgydeECtYCSCxJsWxizTOihLUdXdL0_zZe8qilk63oDsEAoGGEHagKezKPwuJ0RYO4oeDF2KfbtMVUcj1JumP7z_JYJMSeS4Aj06vXvKYmY="}]
+
+[2017-03-08T21:28:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-af2c.slack-msgs.com/websocket/4WHpQFeyFX2ULpfvWjKVh12HMKDcQj0S-rhv6ciMDmXnhk6ir-4Eg_YI6IR_0I7LiGDEfg8owZ_s3u_ArEOIUIkbgEFA2lziAOkb6U7fLqb9HkjEaBWCjXxSF6cg552zkogWsl_5Ebp77AHPsKXhuO_fOe2ohnlfT70lwzmsuTw="}]
+
+[2017-03-08T21:31:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-97b7.slack-msgs.com/websocket/NU0TjuNl_dTJbpe6XJTaCF6PW1VAVOuySHsjx3e-bs8j9ESPHyMq0HXI9tmD1Qovojqms7AcwJalmQR4m2eXdAnKhGOb7exy2Cnyyjodzd3ne0n52C0lMdbjOqAJgGLfdUPQ3U3bmHEZft9hd_4-xEfhMvXwtgKTiNX6pFr8yKo="}]
+
+[2017-03-08T21:33:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-t0e1.slack-msgs.com/websocket/prBy2qs26CS5l5vEIT8Sqvr8xzopJ3cp-vJiSHqsbGeFlavtlaJofcA3_1NT_JldQvldvCouVVOY3tHdhwxIhy-GQXOxdE2k_Xsh2fbxk5ad4jVw5I3khjuF2m-inFOjIRHIEU3FNQYZ4VP4S6b-YX6Bn4GKwu63-i1xv-RgyEo="}]
+
+[2017-03-08T21:36:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-0rvl.slack-msgs.com/websocket/qUbdfOfX1EGoDICbqz1G5KVEgiPx6YcFVEo17DjUgJS_UhtT65_Y3yKvk0y5Zbhv3Jfx4UQY3D6J7RR5BeRqRtgKpbCWutgt0NRFxJP5x5hh4AnqRn4T-iWd7vzy-EU_7MfuGcxaaR3bXPLsBls6-bqMDKzqooID-mfifYxp1G0="}]
+
+[2017-03-08T21:39:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-y5xt.slack-msgs.com/websocket/jy912CL5-ISpz0rhM0CAZ-FGG-kpqENauHQZdXkPIK9JFOPP2HnsoYMphBW4bhH7Jy7sY1IqUJ4z0DMZvZAZv17oUrU-uEKCdhG_zKalG7ExrJX0FevFwqwof3QBtFMrsKIQNkGdG6kFuQKRWGDgB-crmS6Qj_ycstyO1UbnnsE="}]
+
+[2017-03-08T21:42:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-gyme.slack-msgs.com/websocket/pMW3QG528jotYItJNf7W2BmiJG8zKchh6ttnDS0TPLUK0Ntn9wNv5jpTj1Nmkqw5RkC_yDd1YM_uO7ai1F8houisAJVd9JU8nK4epmY_-JgZ3RJlI6W2OJPAjx1EMiNEqQzyyqIf8foyDnnjGQ80aV3JmAtLjfUdgSyNZs_L7XM="}]
+
+[2017-03-08T21:45:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-rivn.slack-msgs.com/websocket/ntBzZDUWDaz57bTwKR7mBqcq0ISzra1JBkwTdh8abKe0ZmX0SQGx7MXj5FcfEKhDnVnX3kfHs4ojoXpkJTnkTBnnT9-e6VG4F_m8wTMe5WP0wLYhwQPCB65l9F24F28OuTuVq5mj_iV9jtAdsMGjwvZjiaxL2njcSKaVthm8KV0="}]
+
+[2017-03-08T21:45:49+05:30] [Received message:  {"type":"presence_change","presence":"away","user":"U486ARMPZ"}]
+
+[2017-03-08T21:48:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-blv3.slack-msgs.com/websocket/3Yu8IJZ24GHR1cBXRDhuj7s9BqaFl3vY_BW4dac1qvW93bRmLyATunMXNn5jinV6lHGYZFCpcNsQMm7izFvNinq1JGYDe_QV0WHP9IyftRNTvNJnw3K2K8G2R0ZJQdY4SkDkHWiF4NDwn-UdoQZzMX2-LnYi1-OS-8_u2oZSrPo="}]
+
+[2017-03-08T21:51:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-8v2u.slack-msgs.com/websocket/yoTKTC8WKk-JwCToDYryzxlI0CzyPFqoiKmQywmluotzAIEkUa7kAB24bAw7_Do9s-Imdrw-LligAjRWyo-isQpBgUwsRVVi9KLuSexEIaMw8F0qZgt7wu_1_N1fBOalLPe_CODjWBhTxivnl0LbhX9vlQ_VtDqPAxTgYXBQn3Q="}]
+
+[2017-03-08T21:53:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-ruvw.slack-msgs.com/websocket/sUnGZ_t-pm6wqBlLjUULcJtQ9PD5H3vuLeZY4DZXtQdA9wkxy44CDpObp8wCPLWNZgm4PDScXa567g9eWe-CFrZyVADW_pYJCH4VNjBmO9ax9HfDdfd-wf4FSQJu_dvm0RfJoVvoLUf_TZKooiGTlR75KRkFSLYOVMTYa6ohF2Q="}]
+
+[2017-03-08T21:56:48+05:30] [Received message:  {"type":"reconnect_url","url":"wss://mpmulti-jrcb.slack-msgs.com/websocket/sb7q8rpqa_h1eYDDXA8bNDT4qmX-vz8V7NVnzQkj3Ut0upN7yrn33hINQVAZzcdRaYlLzfa2wI1ke-pudGnILzyZXSK7Zz79IZ6iQTTsU5j8tAWROM1W3Fv7WUBv28vx2dPWhpMTB8729h4pYbDESYBECCu2zQNPD3gQ0QA-ciw="}]
